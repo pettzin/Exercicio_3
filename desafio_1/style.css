@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+Utilizando HTML + CSS crie o formulário conforme modelo: Coloque o atributo name e id nas
+tags, lembre-se que o ID não pode se
+repetir, no caso do RADIOBUTTON
+crie os nomes iguais e os id
+diferentes.
+Crie o botão do tipo BUTTON.
+CSS:
+• Borda do form double, 22px e
+vermelha
+• Fonte da página Verdana e
+tamanho 18pt
+• Caixas de texto com fonte 18pt,
+borda de 1px solida e preta.
+• Tamanho do form de 400px e
+padding de 30px. */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 18pt;
+}
+
+div.forms {
+    margin: 30px 370px;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    border: 22px double red;
+    position: absolute;
+}
+
+input {
+    background-color: yellow;
+    border: 1px solid black;
+    font-size: 18pt;
+    margin-bottom: 3px;
+}
+
+#N1, #N2, #res {
+    width: 73%;
+}
+

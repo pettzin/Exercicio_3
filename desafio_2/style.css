@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Crie uma classe com o nome de meunome em CSS (externo) e faça as configurações abaixo:
+◦ Tipo da fonte = Verdana
+◦ Tamanho da fonte = 50pt
+◦ Cor de fundo = preto
+◦ Cantos arredondados = 130px
+◦ Tamanho da caixa = 500px
+◦ Cor da letra = branco
+◦ Alinhamento do texto = centro
+Dentro do corpo da página (body), no final do arquivo crie um script JavaScript que deverá escrever na página uma DIV
+com o uso da classe anterior e como mensagem o seu nome. Lembre-se que comandos HTML na linguagem JavaScript
+devem estar sempre dentro de aspas "<div>.....</div>".*/
+
+.meunome {
+    font-family: verdana;
+    font-size: 50pt;
+    background-color: black;
+    border-radius: 130px;
+    width: 500px;
+    text-align: center;
+    color: white;
+}
